@@ -1,0 +1,23 @@
+*.pyc
+*.pyo
+*.env
+env
+env*
+!migrations/env.py
+dist
+build
+*.egg
+*.egg-info
+_mailinglist
+.tox
+.cache/
+test.db
+app.db
+.idea/
+.bundle/
+.vscode/
+venv/
+.venv
+
+# for -e pip packages
+src
