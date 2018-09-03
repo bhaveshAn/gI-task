@@ -37,3 +37,46 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ```
+
+4. Creating Postgres Database
+
+```
+sudo -u postgres psql
+
+```
+
+> Inside Postgres Shell
+
+```
+CREATE USER john WITH PASSWORD 'start';
+CREATE DATABASE gindia WITH OWNER john;
+```
+
+## Running the App (Steps)
+
+```
+cp .env.example .env
+
+python3 create_db.py
+
+python3 manage.py runserver
+
+```
+
+> For Upgrading the Database
+
+```
+python3 manage.py db upgrade
+```
+
+> For Downgrading the Database
+
+```
+python3 manage.py db downgrade
+```
+
+> For Migrating the Database
+
+```
+python3 manage.py db migrate
+```
