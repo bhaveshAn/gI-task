@@ -5,7 +5,7 @@ flake8==3.5.0
 Flask==1.0.2
 Flask-Cors==3.0.6
 Flask-Migrate==2.2.1
-Flask-REST-JSONAPI==0.22.0
+-e git+https://github.com/fossasia/flask-rest-jsonapi.git@shubhamp-master#egg=flask-rest-jsonapi
 Flask-Script==2.0.6
 Flask-SQLAlchemy==2.3.2
 gunicorn==19.9.0
