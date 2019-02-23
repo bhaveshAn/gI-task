@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Give India - Backend Developer Challenge
 
 [Heroku Link](https://fathomless-spire-13788.herokuapp.com)
@@ -80,3 +81,6 @@ python3 manage.py db downgrade
 ```
 python3 manage.py db migrate
 ```
+=======
+# gI-task
+>>>>>>> 6a832d3e8e63ceef8c478405c526df8870c1127c
